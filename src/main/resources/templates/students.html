@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+ <html>
+ <head> 
+ <title>My First Webpage</title>
+ <meta charset="UTF-8">
+ </head>
+ <body>
+ <table>
+  <tr>
+    <th>id</th>
+    <th>firstname</th>
+    <th>lastname</th>
+  </tr>
+  <tr th:each="p:${students}">
+    <td th:text="${p.getId}"></td>
+    <td th:text="${p.getFirstName}"></td>
+    <td></td>
+  </tr>
+</table>
+
+ </body>
+ </html>    
