@@ -1,4 +1,4 @@
-package com.adil.crud.web;
+package com.adil.crud.controller;
 
 import java.util.List;
 
